@@ -1,0 +1,13 @@
+{
+  "build": {
+    "before" : "npm install && npm run lint:fix",
+    "command": "npm run build",
+    "devCommand": "npm run dev"
+  },
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "alias": {
+    "path": "node_modules/path"
+  }
+}
